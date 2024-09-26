@@ -5,12 +5,9 @@ public class  PemilihanBilangan20 {
         Scanner Input = new Scanner(System.in);
         System.out.println("masukan sebuah angka");
         int angka = Input.nextInt();
-        if (angka % 2 == 0) {
-            System.out.println("Angka 4" + angka + " termasuk bilangan genap");
-        }
-        else {
-            System.out.println("amgka " + angka + " termasuk bilangan ganjil");
-        }
+        String pesan =  (  angka % 2 == 0) ? "genap" : "ganjil";
+
+        System.out.println( "angka " + angka + " adalah " + pesan );
         
     }
 }
