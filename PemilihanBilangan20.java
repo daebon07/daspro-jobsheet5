@@ -6,7 +6,7 @@ public class  PemilihanBilangan20 {
         System.out.println("masukan sebuah angka");
         int angka = Input.nextInt();
         if (angka % 2 == 0) {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
+            System.out.println("Angka 4" + angka + " termasuk bilangan genap");
         }
         else {
             System.out.println("amgka " + angka + " termasuk bilangan ganjil");
