@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PemilihanHaridenganIf20 {
+public class 0PemilihanHaridenganIf20 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         

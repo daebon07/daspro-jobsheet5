@@ -41,6 +41,8 @@ public class kafe20 {
             case  'L':
             totalharga += 0.4 * totalharga;
             break;
+            default:
+            break;
         
         }
 
